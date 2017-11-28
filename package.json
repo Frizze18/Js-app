@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "styles": "lessc ./js-app/style.less ./distribution/style.css",
     "bundle": "webpack",
-    "copyindex": "cp ./js-app/indexTemplate.html distribution/index.html",
+    "copyindex": "cp ./js-app/IndexTemplate.html distribution/index.html",
     "build": "npm run lintless && npm run bundle && npm run styles && npm run copyindex",
     "lintless": "stylelint ./js-app/style.less",
     "lintjs": "eslint js-app",
