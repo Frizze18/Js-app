@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "styles": "lessc ./js-app/style.less ./js-app/style.css",
-    "bundle": "webpack"
+    "styles": "lessc ./js-app/style.less ./distribution/style.css",
+    "bundle": "webpack",
+    "copyindex":"cp ./js-app/indexTemplate.html distribution/index.html",
+    "build": "npm run bundle && npm run styles && npm run copyindex"
   },
   "repository": {
     "type": "git",
