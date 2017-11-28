@@ -10,7 +10,7 @@
     "copyindex": "cp ./js-app/IndexTemplate.html distribution/index.html",
     "build": "npm run lintless && npm run bundle && npm run styles && npm run copyindex",
     "lintless": "stylelint ./js-app/style.less",
-    "lintjs": "eslint js-app",
+    "lintjs": "eslint ./js-app",
     "lint": "npm run lintless && npm run lintjs"
   },
   "repository": {
