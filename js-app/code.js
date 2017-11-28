@@ -1,3 +1,7 @@
+let movieData =require("./data.js");
+let $ = require("jquery");
+
+
 function renderMovie(data){
     //document.querySelector(".header").innerText=data.title;
     //$(".header").text(data.title);
@@ -19,9 +23,6 @@ function renderMovie(data){
   //  document.querySelector(".cast").innerHTML = actorlist;
     $(".cast").html(actorlist);
 }
-
-
-
 function changeStarRating(grade) {
     for (let i = 0; i < 5; i++) {
         let star = $("#star" + i); //document.getElementById("star"+i);
@@ -55,4 +56,5 @@ let ui={
 }
     
 //changeStarRating(3);
+
 renderMovie(movieData);

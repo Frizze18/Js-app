@@ -1,5 +1,4 @@
-let movieData ={
-
+module.exports ={
     title:"Goon",
     rewiev:"   A Pretty good hockey movie that capture the life of a enforcer.As many doesn't know a enforcer in hockey is all about figthing and standing up for his teammates.",
     cast:  ["Seann William", 
