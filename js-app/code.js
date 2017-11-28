@@ -45,7 +45,7 @@ for(let i=0; i<5;i++){
         changeStarRating(i);
     });*/
     $("#star"+i).click(function(){
-        console.log("WOOT")
+        console.log("WOOT");
         changeStarRating(i);
     });
 }
@@ -53,7 +53,7 @@ let ui={
     title:$(".header"),
     rewiev:$("#rewiev"),
     image:$(".img")
-}
+};
     
 //changeStarRating(3);
 
